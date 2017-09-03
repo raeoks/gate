@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.2.6'
 
-gem "paranoia"
+gem 'paranoia'
 
 gem 'mysql', platform: :ruby
 
@@ -33,11 +33,10 @@ group :development do
   gem 'web-console', platform: :ruby
 end
 
-
 gem 'puma'
-gem "slim-rails"
-gem "twitter-bootstrap-rails"
-gem "font-awesome-rails"
+gem 'slim-rails'
+gem 'twitter-bootstrap-rails'
+gem 'font-awesome-rails'
 gem 'rotp'
 gem 'devise', '4.1.0'
 gem 'omniauth'
